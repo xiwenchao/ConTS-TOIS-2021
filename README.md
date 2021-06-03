@@ -1,6 +1,3 @@
-# ConTS-TOIS-2021
-An updated version of the code will be released before Arpil 12. 
-
 
 # ConTS
 This is our Pytorch implementation for our paper accepted by TOIS 2021:
