@@ -19,7 +19,7 @@ We train an offline Factorization Machine (FM) model following EAR on records of
 # Online CRS
 ## Datasets
 We use three datasets: Yelp, LastFM and Kuaishou. You can download the propocessed Yelp and LastFM datasets at https://drive.google.com/open?id=13WcWe9JthbiSjcGeCWSTB6Ir7O6riiYy. 
-Because of confidentiality requirements, we do not offer the raw interaction records in Kuaishou dataset. However, we provide the necessary data for the offline training and online evaluation. All the data files of three datasets are put on Google Drive. You can find the link in '/data/readme.txt'. Sepcifically, these files contrains all the positive samples of each user for training, validation and testing,  as well as the relations between all items and attributes. 
+Because of confidentiality requirements, we do not offer the raw interaction records in Kuaishou dataset. However, we provide the necessary data for the offline training and online evaluation. All the data files of three datasets are put on Google Drive. You can find the link in '/data/readme.txt'. Sepcifically, these files contains all the positive samples of each user for training, validation and testing,  as well as the relations between all items and attributes. 
 
 ## Command
 * To run the code, please use the command:
