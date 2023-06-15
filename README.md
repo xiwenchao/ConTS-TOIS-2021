@@ -24,7 +24,7 @@ Because of confidentiality requirements, we do not offer the raw interaction rec
 ## Command
 * To run the code, please use the command:
 ```
-python run_6.py -mt 15 -playby policy -fmCommand 8 -optim SGD -lr 0.01 -decay 0 -TopKTaxo 3 -gamma 0 -strategy maxsim -startFrom 0 -endAt 10000 -eval 1 -initeval 0 -trick 0 -mini 1 -alwaysupdate 1 -upcount 1 -upreg 0.001 -code 0.301 -purpose train -mod ear -upoptim Ada -uplr 0.01
+python  run_6.py -mt 15 -playby policy -fmCommand 8 -optim SGD -lr 0.01 -decay 0 -TopKTaxo 3 -gamma 0 -strategy maxsim -startFrom 0 -endAt 10000 -eval 1 -initeval 0 -trick 0 -mini 1 -alwaysupdate 1 -upcount 1 -upreg 0.001 -code 0.301 -purpose train -mod ear -upoptim Ada -uplr 0.01
 ```
 Note that since randomless lies in the model (due to the sampling strategy), it's recommended to repeat the experiments 10 times and calculate the average results.
 
