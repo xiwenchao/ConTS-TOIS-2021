@@ -158,7 +158,7 @@ def main():
             if len(set(v).intersection(set(cfg.item_dict[str(item_id)]['categories']))) > 0:
                 big_feature_list.append(k)
 
-        print('\n\n\nHello! I am glad to serve you!')
+        print('\n\n\n Hello! I am glad to serve you!')
 
         write_fp = '../../data/interaction-log/{}/v6-code-{}-s-{}-e-{}-lr-{}-gamma-{}-playby-{}-stra-{}-topK-{}-trick-{}-eval-{}-init-{}-mini-{}-always-{}-upcount-{}-upreg-{}.txt'.format(
             A.mod.lower(), A.code, A.startFrom, A.endAt, A.lr, A.gamma, A.playby, A.strategy, A.TopKTaxo, A.trick,
