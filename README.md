@@ -30,7 +30,7 @@ Note that since randomless lies in the model (due to the sampling strategy), it'
 
 # Reference
 
-Please kindly cite our paper if you use our codes or dataset.
+Please cite our paper if you use our codes or dataset kindly.
 ```
 @article{li2020seamlessly,
   author    = {Shijun Li and
